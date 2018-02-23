@@ -1,0 +1,12 @@
+name: CapsGuard
+main: me.Zackpollard.CapsGuard.CapsGuard
+version: 2.0
+commands:
+    cg:
+        description: cg
+        usage: Use /cg reload to reload the configuration
+permission :
+    capsguard.bypass.blocked
+    capsguard.bypass.caps
+    capsguard.alert.caps
+    capsguard.alert.blocked
